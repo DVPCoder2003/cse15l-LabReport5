@@ -13,5 +13,9 @@ From the error message that was being presented there was seemingly a problem wi
 ![Image](Lab5sh2.png)
 With looking at the code and the errror message, the issue seemingly is that the JUnit can't find and call on the file, as the file name was wrong inside of the `.sh`. After doing the `javac` command and then doing `java`, you only need the file name without the .java.
 
-After trying those changes, it seems that the `.sh` file seems to work now
+After trying those changes, it seems that the `.sh` file seems to be able to  work now
 ![Image](Lab5sh3.png)
+
+
+From the submission, there had seemed to be another issue that had needed some debugging, as they had tried another way to write one of the methods that ended up giving an error.
+![Image](Lab51.png)
