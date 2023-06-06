@@ -5,5 +5,13 @@
 For this lab, we are looking at a student that is seemingly having some trouble with their code in some different areas. I had also seen in the EdStem submission that the student had utilized some of the code from the third lab to try something that may cause their time to decrease when trying different tests.
 
 
-The first issue that I had ran to was when I was utilizing the tests.sh file, as that was one of the issues that was present as i had seen
+The first issue that I had ran to was when I was utilizing the `tests.sh` file, as that was one of the issues that was present as i had seen
 ![Image](Lab5sh.png)
+
+From the error message that was being presented there was seemingly a problem with the `.sh` file that the student had created it. The first thing that I should do is look at the code and see if there is any obvious issues that could be fixed
+
+![Image](Lab5sh2.png)
+With looking at the code and the errror message, the issue seemingly is that the JUnit can't find and call on the file, as the file name was wrong inside of the `.sh`. After doing the `javac` command and then doing `java`, you only need the file name without the .java.
+
+After trying those changes, it seems that the `.sh` file seems to work now
+![Image](Lab5sh3.png)
