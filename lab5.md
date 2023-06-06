@@ -27,3 +27,16 @@ One again, I had looked at the method they had implemented in the first place to
 With this, I could definitely see that there is a problem with how it works. If you iterate over the entire array, you aren't able to keep the original number, making it almost impossible for you to do the reversal correctly. After some changes such as iterating over only half (as the other half will be changed in conjunction with the first half) and adding a temporary variable to keep the original number somewhere when reversing the array, it should look something like this.
 
 ![Image](Lab51F.png)
+
+
+Now looking at if it worjs, in the end it does end up working!!
+
+![Image](Lab51W.png)
+
+### Now all of the issues has been fixed, not having to do too much digging to be able to find out the problem :)
+
+---
+## THE REFLECTION
+- As someone that was new to coding when I had came to this school, almost everything that I had experienced in the class and especially in the lab was new to me. I really did like using the bash scripts as it gave a very good shortcut into doing tests over and over without writing so much every single time. I also was able to learn vim, which weas a very interesting way to be able to use the command line and something that had piqued my interest once I had seen the application being used in the lab. I am so thankful for all those in the lab for what they do for us and I do appreciate all the help that I was given in the quarter (thank you Andrew especially for working with me as well!!!
+
+
